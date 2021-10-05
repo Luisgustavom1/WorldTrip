@@ -14,14 +14,14 @@ const Texts: React.FC = () => {
         fontSize={['2rem', '3.5rem']}
         fontWeight='500'
         color={theme.color.light.headingAndTexts}
-        maxWidth='426px'
+        maxWidth={['333px', '426px']}
       >
         5 Continentes, &nbsp; &nbsp; infinitas possibilidades.
       </Heading>
       <Text
         fontSize={['1.4rem', '2rem']}
         color={theme.color.light.info}
-        maxWidth='524px'
+        maxWidth={['333px', '524px']}
       >
         Chegou a hora de tirar do papel a viagem que você sempre sonhou. 
       </Text>

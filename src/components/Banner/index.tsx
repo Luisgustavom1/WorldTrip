@@ -1,9 +1,15 @@
-import { Flex } from '@chakra-ui/react';
+import { Flex, useBreakpointValue } from '@chakra-ui/react';
 import React from 'react';
 import Airplane from './airplane';
 import Texts from './texts';
 
 const Banner: React.FC = () => {
+  
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    md: true
+  })
+
   return (
     <Flex
      bgImage="url('./assets/svg/Background.svg')"
@@ -11,10 +17,10 @@ const Banner: React.FC = () => {
      bgRepeat="no-repeat"   
      align='center'
      justify='space-between'
-     px={['1.6rem', '8rem', '14rem']}
+     px={['1.6rem', '6rem', '14rem']}
     >
       <Texts /> 
-      <Airplane />
+      { isWideVersion && <Airplane />}
     </Flex>
   );
 }
