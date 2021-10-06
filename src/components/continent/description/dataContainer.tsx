@@ -1,11 +1,11 @@
-import { Flex } from '@chakra-ui/react';
+import { Stack } from '@chakra-ui/react';
 import Data from './data';
 
 const DataContainer: React.FC = () => {
   return (
-    <Flex
-      w={['100%', '45%']}
-      justify='space-between'
+    <Stack
+      direction='row'
+      spacing='4.2rem'
     >  
       <Data 
         title='países'
@@ -19,7 +19,7 @@ const DataContainer: React.FC = () => {
         title='cidade +100'
         estatistic={27}
       />
-    </Flex>
+    </Stack>
   )
 }
 

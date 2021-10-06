@@ -8,7 +8,7 @@ interface AttractionProps {
 
 const Attraction: React.FC<AttractionProps> = ({ img, title}) => {
   
-  const [isWideVersion] = useMediaQuery("(min-width: 560px)")
+  const [isWideVersion] = useMediaQuery("(min-width: 560px)");
 
   return (
     <Flex
