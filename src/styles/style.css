@@ -66,3 +66,13 @@ body {
 .swiper-slide:nth-child(6) {
   background: linear-gradient(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url('../../public/assets/continents/africa.jpg') bottom / cover;
 }
+
+@media (max-width: 480px) {
+  .swiper {
+    height: 25rem;
+  }
+
+  .swiper-slide {
+    padding-top: 11rem;
+  }
+}

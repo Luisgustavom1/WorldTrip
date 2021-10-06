@@ -1,5 +1,4 @@
 import React from "react";
-import { Text, Heading, VStack } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -10,7 +9,6 @@ import "swiper/css/pagination"
 import SwiperCore, {
   Navigation, Pagination, Mousewheel, Keyboard
 } from 'swiper';
-import { theme } from "../../styles/theme";
 import TextsOfSlide from "./textsOfSlide";
 
 // install Swiper modules

@@ -1,6 +1,6 @@
 import { VStack, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
-import { theme } from '../../styles/theme';
+import { theme } from '../../../styles/theme';
 
 const Texts: React.FC = () => {
   return (
