@@ -14,9 +14,9 @@ const Texts: React.FC = () => {
         fontSize={['2rem', '3.5rem']}
         fontWeight='500'
         color={theme.color.light.headingAndTexts}
-        maxWidth={['333px', '426px']}
+        maxWidth={['238px', '426px']}
       >
-        5 Continentes, &nbsp; &nbsp; infinitas possibilidades.
+        5 Continentes, <br/> infinitas possibilidades.
       </Heading>
       <Text
         fontSize={['1.4rem', '2rem']}
