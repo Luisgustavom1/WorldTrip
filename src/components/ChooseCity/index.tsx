@@ -1,8 +1,14 @@
+import { VStack } from '@chakra-ui/react';
 import React from 'react';
+import Slide from './slide';
+import Titles from './titles';
 
 const ChooseCity: React.FC = () => {
   return (
-    <h1>oooiiii</h1>
+    <VStack>
+      <Titles />
+      <Slide />
+    </VStack>
   );
 }
 
