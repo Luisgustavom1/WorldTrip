@@ -2,7 +2,13 @@ import { Box, VStack, Heading, Flex, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import { theme } from '../../../styles/theme';
 
-const Cards: React.FC = () => {
+interface CardsProps {
+  city: string;
+  country: string;
+  img: string
+}
+
+const Cards = ({ city, country, img }: CardsProps) => {
   return (
     <VStack
       w='256px'
@@ -11,8 +17,7 @@ const Cards: React.FC = () => {
       borderRadius='4px'
       border='1px'
       borderColor={theme.color.highlight.highlight}
-      justify='start'
-      align='flex-start'
+      mb='4.8rem'
     >
       <Image 
         src='/assets/Foto.jpg'
@@ -28,13 +33,14 @@ const Cards: React.FC = () => {
       >
         <VStack
           spacing='1rem'
+          textAlign='left'
         >
           <Heading        
             fontFamily='Barlow'
             fontSize='2rem'
             fontWeight='600'
           >
-            Amsterdã
+            {city}
           </Heading>
           <Text 
             fontFamily='Barlow'
@@ -42,14 +48,15 @@ const Cards: React.FC = () => {
             fontWeight='500'
             w='100%'
           >
-            Holanda
+            {country}
           </Text>
         </VStack>
         <Image 
-          src='/assets/Ellipse 6.svg'
+          src={img}
           alt='Svg da bandeira da Holanda'
           width='30'
           height='30'
+          objectFit='contain'
         />
       </Flex>
     </VStack>

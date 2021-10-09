@@ -1,9 +1,25 @@
 import React from 'react';
-import { Text, Flex, Stack } from '@chakra-ui/react';
+import { GetStaticPaths, GetStaticProps } from 'next';
+
+import { Text, Flex, Stack, Grid, useMediaQuery } from '@chakra-ui/react';
+
 import Description from '../components/continent/description';
 import Cards from '../components/continent/cards';
 
-const Continent: React.FC = () => {
+import { api } from '../services/api';
+
+interface ContinentProps {
+  continentData: {
+    id: number,
+    city: string,
+    country: string,
+    countryImg: string
+  }[]
+}
+
+const Continent = ({ continentData }: ContinentProps) => {
+  const [isWideVersion] = useMediaQuery("(min-width: 560px)");
+
   return (
     <>
       <Flex 
@@ -34,21 +50,46 @@ const Continent: React.FC = () => {
         <Text 
           fontSize={['2.4rem', '3.6rem']}
           fontWeight='500'
+          mb='4rem'
         >
           Cidades +100
         </Text>
-        <Flex
-          justify='space-between'
+        <Grid
+          templateColumns="repeat(auto-fill, minmax(256px, 1fr))"
+          justifyItems={isWideVersion ? 'center' : 'left' }
           mt='4rem'
         >
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-        </Flex>
+          {continentData?.map(city => (
+            <Cards 
+              key={city.id}
+              city={city.city}
+              country={city.country}
+              img={city.countryImg}
+            />
+          ))}
+        </Grid>
       </Stack>
     </>
   );
 }
 
 export default Continent;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: [],
+    fallback: true,
+  }
+};
+
+export const getStaticProps: GetStaticProps = async context => {
+  const { continent } = context.params;
+
+  const continentData = await api.get(`/${continent}`).then(res => res.data);
+  
+  return {
+    props: {
+      continentData
+    }
+  }
+}

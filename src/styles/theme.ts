@@ -30,7 +30,7 @@ export const theme = extendTheme({
         color: '#47585B'
       },
       html: { 
-        fontSize: "10px"
+        fontSize: "62.5%"
       },
     }
   }
