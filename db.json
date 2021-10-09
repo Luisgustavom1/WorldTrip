@@ -1,37 +1,111 @@
 {
   "southAmerica": [
-    { "id": 1, "country": "brasil", "city": "Rio de Janeiro", "countryImg": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg"},
-    { "id": 2, "country": "peru", "city": "Lima", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f5-1f1ea.png"}
+    {
+    "continent": "SouthAmerica",
+    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "info": {
+      "countries": 13,
+      "languages": 456,
+      "cities+100": 2
+    }
+  },
+  {
+    "cities": [{ "id": 1, "country": "brasil", "city": "Rio de Janeiro", "countryImg": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg"},
+    { "id": 2, "country": "peru", "city": "Lima", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f5-1f1ea.png"}]
+  }
   ],
-  "northAmerican": [
-    { "id": 1, "country": "EUA", "city": "New York City", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-    { "id": 2, "country": "EUA", "city": "Miami", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-    { "id": 3, "country": "EUA", "city": "Los Angeles", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-    { "id": 4, "country": "EUA", "city": "Las Vegas", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-    { "id": 5, "country": "Canadan", "city": "Toronto", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197430.png"},
-    { "id": 6, "country": "EUA", "city": "San Francisco", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"}
+  "northAmerica": [
+    {
+      "continent": "NorthAmerica",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "info": {
+        "countries": 3,
+        "languages": 256,
+        "cities+100": 8
+      }
+    },
+    {
+      "cities": [
+        { "id": 1, "country": "EUA", "city": "New York City", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
+        { "id": 2, "country": "EUA", "city": "Miami", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
+        { "id": 3, "country": "EUA", "city": "Los Angeles", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
+        { "id": 4, "country": "EUA", "city": "Las Vegas", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
+        { "id": 5, "country": "Canadan", "city": "Toronto", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197430.png"},
+        { "id": 6, "country": "EUA", "city": "San Francisco", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"}
+      ]
+    }
   ],
   "europe": [
-    { "id": 1, "country": "London", "city": "United Kingdom", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ec-1f1e7.png"},
-    { "id": 2, "country": "Paris", "city": "France", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1eb-1f1f7.png"},
-    { "id": 3, "country": "Italy", "city": "Rome", "countryImg": "https://images.vexels.com/media/users/3/164331/isolated/preview/aad83398a42c589aa011f1d9a3e8a1dc-circulo-do-icone-do-idioma-da-bandeira-da-italia.png"},
-    { "id": 4, "country": "Amsterdam", "city": "Netherlands", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1f1.png"},
-    { "id": 5, "country": "spain", "city": "Madrid", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"},
-    { "id": 6, "country": "spain", "city": "Barcelona", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"}
+    {
+      "continent": "Europe",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "info": {
+        "countries": 50,
+        "languages": 60,
+        "cities+100": 32
+      }
+    },
+    {"cities": [
+      { "id": 1, "country": "London", "city": "United Kingdom", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ec-1f1e7.png"},
+      { "id": 2, "country": "Paris", "city": "France", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1eb-1f1f7.png"},
+      { "id": 3, "country": "Italy", "city": "Rome", "countryImg": "https://images.vexels.com/media/users/3/164331/isolated/preview/aad83398a42c589aa011f1d9a3e8a1dc-circulo-do-icone-do-idioma-da-bandeira-da-italia.png"},
+      { "id": 4, "country": "Amsterdam", "city": "Netherlands", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1f1.png"},
+      { "id": 5, "country": "spain", "city": "Madrid", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"},
+      { "id": 6, "country": "spain", "city": "Barcelona", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"}
+    ]}
   ],
   "asia": [
-    { "id": 1, "country": "China", "city": "Hong Kong", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png"},
-    { "id": 2, "country": "Thailand", "city": "Bangkok", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f9-1f1ed.png"},
-    { "id": 3, "country": "China", "city": "Macau", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png"},
-    { "id": 4, "country": "Singapore", "city": "Singapore", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197496.png"},
-    { "id": 5, "country": "UAE", "city": "Dubai", "countryImg": "https://w7.pngwing.com/pngs/983/698/png-transparent-green-white-black-and-red-logo-dubai-emoji-flag-of-the-united-arab-emirates-national-flag-uae-angle-flag-logo.png"},
-    { "id": 6, "country": "Kuala Lumpur", "city": "Malaysia", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"}
+    {
+      "continent": "Asia",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "info": {
+        "countries": 50,
+        "languages": 2300,
+        "cities+100": 43
+      }
+    },
+    {
+      "cities": [
+        { "id": 1, "country": "China", "city": "Hong Kong", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png"},
+        { "id": 2, "country": "Thailand", "city": "Bangkok", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f9-1f1ed.png"},
+        { "id": 3, "country": "China", "city": "Macau", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png"},
+        { "id": 4, "country": "Singapore", "city": "Singapore", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197496.png"},
+        { "id": 5, "country": "UAE", "city": "Dubai", "countryImg": "https://w7.pngwing.com/pngs/983/698/png-transparent-green-white-black-and-red-logo-dubai-emoji-flag-of-the-united-arab-emirates-national-flag-uae-angle-flag-logo.png"},
+        { "id": 6, "country": "Kuala Lumpur", "city": "Malaysia", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"}
+      ]
+    }
   ],
   "oceania": [
-    { "id": 1, "country": "Australia", "city": "Melbourne", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1e6-1f1fa.png"},
-    { "id": 2, "country": "New Zealand", "city": "Auckland", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1ff.png"}
+    {
+      "continent": "Oceania",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "info": {
+        "countries": 14,
+        "languages": 2000,
+        "cities+100": 2
+      }
+    },
+    {
+      "cities": [
+        { "id": 1, "country": "Australia", "city": "Melbourne", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1e6-1f1fa.png"},
+        { "id": 2, "country": "New Zealand", "city": "Auckland", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1ff.png"}
+      ]
+    }
   ],
   "africa": [
-    { "id": 1, "country": "South Africa", "city": "Johannesburg", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ff-1f1e6.png"}
+    {
+      "continent": "Africa",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "info": {
+        "countries": 54,
+        "languages": 2000,
+        "cities+100": 1
+      }
+    },
+    {
+      "cities": [
+        { "id": 1, "country": "South Africa", "city": "Johannesburg", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ff-1f1e6.png"}
+      ]
+    }
   ]
 }

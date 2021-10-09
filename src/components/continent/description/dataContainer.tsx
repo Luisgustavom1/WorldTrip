@@ -1,7 +1,12 @@
 import { Stack } from '@chakra-ui/react';
+import { info } from '../../../types';
 import Data from './data';
 
-const DataContainer: React.FC = () => {
+interface DataContainerProps {
+  info: info
+}
+
+const DataContainer = ({ info }: DataContainerProps) => {
   return (
     <Stack
       direction='row'
@@ -9,15 +14,15 @@ const DataContainer: React.FC = () => {
     >  
       <Data 
         title='países'
-        estatistic={50}
+        estatistic={info.countries}
       />
       <Data 
         title='línguas'
-        estatistic={60}
+        estatistic={info.languages}
       />
       <Data 
         title='cidade +100'
-        estatistic={27}
+        estatistic={info['cities+100']}
       />
     </Stack>
   )

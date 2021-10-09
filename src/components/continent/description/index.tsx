@@ -1,22 +1,32 @@
 import { Flex, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
+import { info } from '../../../types';
 import DataContainer from './dataContainer';
 import Text from './text';
 
-const Description: React.FC = () => {
+interface DescriptionProps {
+  description: string,
+  info: info
+}
+
+const Description = ({ description, info }: DescriptionProps) => {
   
   const [isWideVersion] = useMediaQuery("(min-width: 1200px)");
 
   return (
     <Flex
-      pt='8rem'
+      pt='7rem'
       px={['1.6rem' , '14rem']}
       alignItems='center'
       justify='space-between'
       direction={isWideVersion ? 'row' : 'column'}
     >
-      <Text />
-      <DataContainer />
+      <Text 
+        description={description}
+      />
+      <DataContainer 
+        info={info}
+      />
     </Flex>
   );
 }

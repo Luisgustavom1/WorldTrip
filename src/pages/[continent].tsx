@@ -7,18 +7,35 @@ import Description from '../components/continent/description';
 import Cards from '../components/continent/cards';
 
 import { api } from '../services/api';
+import { useRouter } from 'next/dist/client/router';
+import { info } from '../types';
 
 interface ContinentProps {
-  continentData: {
-    id: number,
-    city: string,
-    country: string,
-    countryImg: string
-  }[]
+  continentData: [
+    {
+      continent: string,
+      description: string,
+      info: info
+    },
+    {
+      cities: {
+        id: number,
+        city: string,
+        country: string,
+        countryImg: string
+      }[]
+    }
+ ]
 }
 
 const Continent = ({ continentData }: ContinentProps) => {
-  const [isWideVersion] = useMediaQuery("(min-width: 560px)");
+  const router = useRouter();
+
+  const [isWideVersion] = useMediaQuery("(min-width: 1047px)");
+
+  if(router.isFallback) {
+    return <div>LOADING...</div>
+  }
 
   return (
     <>
@@ -36,11 +53,14 @@ const Continent = ({ continentData }: ContinentProps) => {
           fontWeight='600'
           color='#F5F8FA'
         >
-          Europa
+          {continentData[0].continent}
         </Text>
       </Flex>
 
-      <Description />
+      <Description 
+        description={continentData[0].description}
+        info={continentData[0].info}
+      />
 
       <Stack
         mt='8rem'
@@ -56,10 +76,10 @@ const Continent = ({ continentData }: ContinentProps) => {
         </Text>
         <Grid
           templateColumns="repeat(auto-fill, minmax(256px, 1fr))"
-          justifyItems={isWideVersion ? 'center' : 'left' }
+          justifyItems={isWideVersion ? 'left' : 'center' }
           mt='4rem'
         >
-          {continentData?.map(city => (
+          {continentData[1].cities.map(city => (
             <Cards 
               key={city.id}
               city={city.city}
@@ -86,6 +106,7 @@ export const getStaticProps: GetStaticProps = async context => {
   const { continent } = context.params;
 
   const continentData = await api.get(`/${continent}`).then(res => res.data);
+  console.log(continentData);
   
   return {
     props: {
