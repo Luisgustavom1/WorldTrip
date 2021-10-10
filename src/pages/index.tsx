@@ -1,9 +1,13 @@
+import React from 'react';
+import Head from 'next/head';
 import { Divider } from '@chakra-ui/react';
-import type { NextPage } from 'next'
-import Head from 'next/Head';
+
+import type { NextPage } from 'next';
+
 import Banner from '../components/Home/Banner'
 import ChooseCity from '../components/Home/ChooseCity';
 import Attraction from '../components/Home/SectionAttraction';
+
 import { theme } from '../styles/theme';
 
 const Home: NextPage = () => {

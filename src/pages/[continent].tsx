@@ -101,8 +101,12 @@ const Continent = ({ continentData }: ContinentProps) => {
 export default Continent;
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const continentData = await api.get(`/europe`).then(res => res.data);
+
   return {
-    paths: [],
+    paths: [
+      { params: { continent: 'europe' } }
+    ],
     fallback: true,
   }
 };
