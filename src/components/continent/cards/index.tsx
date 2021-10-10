@@ -1,14 +1,15 @@
-import { Box, VStack, Heading, Flex, Text } from '@chakra-ui/react';
+import { VStack, Heading, Flex, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import { theme } from '../../../styles/theme';
 
 interface CardsProps {
   city: string;
   country: string;
-  img: string
+  img: string,
+  cityImg: string
 }
 
-const Cards = ({ city, country, img }: CardsProps) => {
+const Cards = ({ city, country, img, cityImg }: CardsProps) => {
   return (
     <VStack
       w='256px'
@@ -20,7 +21,7 @@ const Cards = ({ city, country, img }: CardsProps) => {
       mb='4.8rem'
     >
       <Image 
-        src='/assets/Foto.jpg'
+        src={cityImg ? cityImg : '/assets/Foto.jpg'}
         alt='Imagem de amsterdã'
         width='256'
         height='173'

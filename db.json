@@ -2,36 +2,38 @@
   "southAmerica": [
     {
     "continent": "SouthAmerica",
-    "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+    "description": "A América do Sul está localizada em grande parte no hemisfério sul, na zona intertropical ocidental. A América do Sul abrange um território de 18 milhões de quilômetros quadrados e é banhada a leste pelo oceano Atlântico, a oeste pelo oceano Pacífico e ao norte pelo mar das Antilhas, conhecido como do Caribe.",
     "info": {
       "countries": 13,
       "languages": 456,
       "cities+100": 2
-    }
+    },
+    "img": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
   },
   {
-    "cities": [{ "id": 1, "country": "brasil", "city": "Rio de Janeiro", "countryImg": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg"},
-    { "id": 2, "country": "peru", "city": "Lima", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f5-1f1ea.png"}]
+    "cities": [{ "id": 1, "country": "brasil", "city": "Rio de Janeiro", "countryImg": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg", "cityImg": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+    { "id": 2, "country": "peru", "city": "Lima", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f5-1f1ea.png", "cityImg": "https://images.unsplash.com/photo-1531968455001-5c5272a41129?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGltYSUyMHBlcnV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"}]
   }
   ],
   "northAmerica": [
     {
       "continent": "NorthAmerica",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "description": "A América do Norte corresponde à parte norte do continente americano, é formada por três países, Estados Unidos, Canadá e México, que ocupam juntos uma área de 23,6 milhões de quilômetros quadrados. Essa porção do continente americano está situada no ocidente e no hemisfério norte, esse limita-se ao norte com o Oceano Ártico, leste com Oceano Atlântico, sudeste com o mar das Caraíbas e no sul e oeste com o Oceano Pacífico",
       "info": {
         "countries": 3,
         "languages": 256,
         "cities+100": 8
-      }
+      },
+      "img": "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWlhbWl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
     },
     {
       "cities": [
-        { "id": 1, "country": "EUA", "city": "New York City", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-        { "id": 2, "country": "EUA", "city": "Miami", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-        { "id": 3, "country": "EUA", "city": "Los Angeles", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-        { "id": 4, "country": "EUA", "city": "Las Vegas", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"},
-        { "id": 5, "country": "Canadan", "city": "Toronto", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197430.png"},
-        { "id": 6, "country": "EUA", "city": "San Francisco", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png"}
+        { "id": 1, "country": "EUA", "city": "New York City", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png", "cityImg": "https://images.unsplash.com/photo-1546436836-07a91091f160?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3JTIweW9yayUyMGNpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 2, "country": "EUA", "city": "Miami", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png", "cityImg": "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWlhbWl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 3, "country": "EUA", "city": "Los Angeles", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png", "cityImg": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9zJTIwYW5nZWxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 4, "country": "EUA", "city": "Las Vegas", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png", "cityImg": "https://images.unsplash.com/photo-1583207884889-d79abf0d0aa3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFzJTIwdmVnYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 5, "country": "Canadan", "city": "Toronto", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197430.png", "cityImg": "https://images.unsplash.com/photo-1542704792-e30dac463c90?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9yb250b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 6, "country": "EUA", "city": "San Francisco", "countryImg": "https://cdn-icons-png.flaticon.com/512/323/323310.png", "cityImg": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FuJTIwZnJhbmNpc2NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"}
       ]
     }
   ],
@@ -43,68 +45,72 @@
         "countries": 50,
         "languages": 60,
         "cities+100": 32
-      }
+      },
+      "img": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5MzM4NzU4fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
     },
     {"cities": [
-      { "id": 1, "country": "London", "city": "United Kingdom", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ec-1f1e7.png"},
-      { "id": 2, "country": "Paris", "city": "France", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1eb-1f1f7.png"},
-      { "id": 3, "country": "Italy", "city": "Rome", "countryImg": "https://images.vexels.com/media/users/3/164331/isolated/preview/aad83398a42c589aa011f1d9a3e8a1dc-circulo-do-icone-do-idioma-da-bandeira-da-italia.png"},
-      { "id": 4, "country": "Amsterdam", "city": "Netherlands", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1f1.png"},
-      { "id": 5, "country": "spain", "city": "Madrid", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"},
-      { "id": 6, "country": "spain", "city": "Barcelona", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"}
+      { "id": 1, "country": "United Kingdom", "city": "London", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ec-1f1e7.png", "cityImg": "https://images.unsplash.com/photo-1600454021970-351eff4a6554?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bG9uZHJlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+      { "id": 2, "country": "France", "city": "Paris", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1eb-1f1f7.png",  "cityImg": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"},
+      { "id": 3, "country": "Italy", "city": "Rome", "countryImg": "https://images.vexels.com/media/users/3/164331/isolated/preview/aad83398a42c589aa011f1d9a3e8a1dc-circulo-do-icone-do-idioma-da-bandeira-da-italia.png", "cityImg": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9tZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+      { "id": 4, "country": "Netherlands", "city": "Amsterdam", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1f1.png", "cityImg": "https://images.unsplash.com/photo-1516458418924-3136b8004288?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YW1zdGVyZGFtJTIwbmV0aGVybGFuZHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+      { "id": 5, "country": "spain", "city": "Madrid", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png", "cityImg": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFkcmlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+      { "id": 6, "country": "spain", "city": "Barcelona", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png", "cityImg": "https://images.unsplash.com/photo-1587789202069-f57c846b85db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFyY2Vsb25hJTIwc3BhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"}
     ]}
   ],
   "asia": [
     {
       "continent": "Asia",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering",
       "info": {
         "countries": 50,
         "languages": 2300,
         "cities+100": 43
-      }
+      },
+      "img": "https://images.unsplash.com/photo-1574236170878-f66e35f83207?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXNpYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
     },
     {
       "cities": [
-        { "id": 1, "country": "China", "city": "Hong Kong", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png"},
-        { "id": 2, "country": "Thailand", "city": "Bangkok", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f9-1f1ed.png"},
-        { "id": 3, "country": "China", "city": "Macau", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png"},
-        { "id": 4, "country": "Singapore", "city": "Singapore", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197496.png"},
-        { "id": 5, "country": "UAE", "city": "Dubai", "countryImg": "https://w7.pngwing.com/pngs/983/698/png-transparent-green-white-black-and-red-logo-dubai-emoji-flag-of-the-united-arab-emirates-national-flag-uae-angle-flag-logo.png"},
-        { "id": 6, "country": "Kuala Lumpur", "city": "Malaysia", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png"}
+        { "id": 1, "country": "China", "city": "Hong Kong", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png", "cityImg": "https://images.unsplash.com/photo-1594973782943-3314fe063f68?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvbmclMjBrb25nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 2, "country": "Thailand", "city": "Bangkok", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f9-1f1ed.png", "cityImg": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFuZ2tva3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 3, "country": "China", "city": "Macau", "countryImg": "https://emojitool.com/img/joypixels/6.5/flag-china-2986.png", "cityImg": "https://images.unsplash.com/photo-1556709911-93a82c864ece?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFjYXV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 4, "country": "Singapore", "city": "Singapore", "countryImg": "https://cdn-icons-png.flaticon.com/512/197/197496.png", "cityImg": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2Fwb3JlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 5, "country": "UAE", "city": "Dubai", "countryImg": "https://w7.pngwing.com/pngs/983/698/png-transparent-green-white-black-and-red-logo-dubai-emoji-flag-of-the-united-arab-emirates-national-flag-uae-angle-flag-logo.png", "cityImg": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 6, "country": "Malaysia", "city": "Kuala Lumpur", "countryImg": "https://images.vexels.com/media/users/3/164599/isolated/lists/ce858535b77f22068049aca2457e59ad-circulo-do-icone-do-idioma-da-bandeira-da-espanha.png", "cityImg": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8a3VhbGElMjBsdW1wdXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"}
       ]
     }
   ],
   "oceania": [
     {
       "continent": "Oceania",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
       "info": {
         "countries": 14,
         "languages": 2000,
         "cities+100": 2
-      }
+      },
+      "img": "https://images.unsplash.com/photo-1595263187083-1334b774dfb2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8b2NlYW5pYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
     },
     {
       "cities": [
-        { "id": 1, "country": "Australia", "city": "Melbourne", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1e6-1f1fa.png"},
-        { "id": 2, "country": "New Zealand", "city": "Auckland", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1ff.png"}
+        { "id": 1, "country": "Australia", "city": "Melbourne", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1e6-1f1fa.png", "cityImg": "https://images.unsplash.com/photo-1597200715107-0b30ad4baf36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVsYm91cm5lJTIwY2l0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"},
+        { "id": 2, "country": "New Zealand", "city": "Auckland", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1f3-1f1ff.png", "cityImg": "https://images.unsplash.com/photo-1595125990323-885cec5217ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXVja2xhbmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"}
       ]
     }
   ],
   "africa": [
     {
       "continent": "Africa",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "description": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. Apresenta grande diversidade étnica, cultural, social e política",
       "info": {
         "countries": 54,
         "languages": 2000,
         "cities+100": 1
-      }
+      },
+      "img": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWZyaWNhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
     },
     {
       "cities": [
-        { "id": 1, "country": "South Africa", "city": "Johannesburg", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ff-1f1e6.png"}
+        { "id": 1, "country": "South Africa", "city": "Johannesburg", "countryImg": "https://assets.wprock.fr/emoji/joypixels/512/1f1ff-1f1e6.png", "cityImg": "https://images.unsplash.com/photo-1552937075-967cf58b74a4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8am9oYW5uZXNidXJnfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"}
       ]
     }
   ]

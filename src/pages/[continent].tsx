@@ -15,14 +15,16 @@ interface ContinentProps {
     {
       continent: string,
       description: string,
-      info: info
+      info: info,
+      img: string
     },
     {
       cities: {
         id: number,
         city: string,
         country: string,
-        countryImg: string
+        countryImg: string,
+        cityImg: string
       }[]
     }
  ]
@@ -40,8 +42,10 @@ const Continent = ({ continentData }: ContinentProps) => {
   return (
     <>
       <Flex 
-        bgImage="url('./assets/continents/europa.jpg')"
+        bgImage={`linear-gradient(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url('${continentData[0].img}')`}
         bgPosition='center'
+        bgSize='cover'
+        bgRepeat='no-repeat'
         w='100%'
         h={['150px', '500px']}
         alignItems='end'
@@ -85,6 +89,7 @@ const Continent = ({ continentData }: ContinentProps) => {
               city={city.city}
               country={city.country}
               img={city.countryImg}
+              cityImg={city.cityImg}
             />
           ))}
         </Grid>
@@ -106,7 +111,6 @@ export const getStaticProps: GetStaticProps = async context => {
   const { continent } = context.params;
 
   const continentData = await api.get(`/${continent}`).then(res => res.data);
-  console.log(continentData);
   
   return {
     props: {

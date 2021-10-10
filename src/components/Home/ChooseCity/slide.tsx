@@ -1,4 +1,4 @@
-import React from "react";
+import Router from 'next/router'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -18,40 +18,52 @@ export default function App() {
   return (
     <>
     <Swiper cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} className="mySwiper">
-      <SwiperSlide>
+      <SwiperSlide
+        onClick={() => Router.push('/europe')}
+      >
         <TextsOfSlide 
           continent='Europa'
-          description='O país mais antigo.'
+          description='O continente mais antigo.'
         />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide
+        onClick={() => Router.push('/southAmerica')}
+      >
         <TextsOfSlide 
-          continent='Europa'
-          description='O país mais antigo.'
+          continent='America Do Sul'
+          description='O continente mais belo.'
         />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide
+        onClick={() => Router.push('/northAmerica')}
+      >
         <TextsOfSlide 
-          continent='Europa'
-          description='O país mais antigo.'
+          continent='America Do Norte'
+          description='O continente mais rico.'
         />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide
+        onClick={() => Router.push('/oceania')}
+      >
         <TextsOfSlide 
-          continent='Europa'
-          description='O país mais antigo.'
+          continent='Oceania'
+          description='O continente mais paradisíaco.'
         />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide
+        onClick={() => Router.push('/asia')}
+      >
         <TextsOfSlide 
-          continent='Europa'
-          description='O país mais antigo.'
+          continent='Asia'
+          description='O maior continente.'
         />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide
+        onClick={() => Router.push('/africa')}
+      >
         <TextsOfSlide 
-          continent='Europa'
-          description='O país mais antigo.'
+          continent='Africa'
+          description='O continente com maior diversidade.'
         />
       </SwiperSlide>
     </Swiper>

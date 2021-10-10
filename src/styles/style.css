@@ -41,6 +41,8 @@ body {
   align-items: flex-start;
 
   padding-top: 18rem;
+
+  cursor: pointer;
 }
 
 .swiper-slide:nth-child(1) {

@@ -11,6 +11,9 @@ const TextsOfSlide: React.FC<TextsOfSlideProps> = ({ continent, description }) =
     <VStack
       color={theme.color.light.headingAndTexts}
       fontWeight='700'
+      _hover={{
+        opacity: '0.7'
+      }}
     >
       <Heading
         fontSize={['2.4rem', '4.8rem']}
