@@ -1,4 +1,4 @@
-import React from 'react';
+import { ParsedUrlQuery } from 'querystring';
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 import { Text, Flex, Stack, Grid, useMediaQuery } from '@chakra-ui/react';
@@ -107,8 +107,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 };
 
-export const getStaticProps: GetStaticProps = async context => {
-  const { continent } = context.params;
+interface Params extends ParsedUrlQuery {
+  continent: string
+}
+
+export const getStaticProps: GetStaticProps<ContinentProps, Params> = async context => {
+  const { continent } = context.params!;
 
   const continentData = await api.get(`/${continent}`).then(res => res.data);
   
