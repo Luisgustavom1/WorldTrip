@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   return (
     <Center as='header' py={['15px', '27px']}>
       <Image 
-        src='./assets/svg/logo.svg' 
+        src='./assets/svg/Logo.svg' 
         alt='Svg da logo'
         w={['81px', 'auto']}
         onClick={() => router.push({

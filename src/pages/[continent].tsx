@@ -5,38 +5,19 @@ import { Text, Flex, Stack, Grid, useMediaQuery } from '@chakra-ui/react';
 
 import Description from '../components/continent/description';
 import Cards from '../components/continent/cards';
+import Loading from '../components/loading';
 
 import { api } from '../services/api';
 import { useRouter } from 'next/dist/client/router';
-import { info } from '../types';
+import { ContinentTypes } from '../types';
 
-interface ContinentProps {
-  continentData: [
-    {
-      continent: string,
-      description: string,
-      info: info,
-      img: string
-    },
-    {
-      cities: {
-        id: number,
-        city: string,
-        country: string,
-        countryImg: string,
-        cityImg: string
-      }[]
-    }
- ]
-}
-
-const Continent = ({ continentData }: ContinentProps) => {
+const Continent = ({ continentData }: ContinentTypes) => {
   const router = useRouter();
 
   const [isWideVersion] = useMediaQuery("(min-width: 1047px)");
 
   if(router.isFallback) {
-    return <div>LOADING...</div>
+    return <Loading />
   }
 
   return (
@@ -101,12 +82,8 @@ const Continent = ({ continentData }: ContinentProps) => {
 export default Continent;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const continentData = await api.get(`/europe`).then(res => res.data);
-
   return {
-    paths: [
-      { params: { continent: 'europe' } }
-    ],
+    paths: [],
     fallback: true,
   }
 };
@@ -115,7 +92,7 @@ interface Params extends ParsedUrlQuery {
   continent: string
 }
 
-export const getStaticProps: GetStaticProps<ContinentProps, Params> = async context => {
+export const getStaticProps: GetStaticProps<ContinentTypes, Params> = async context => {
   const { continent } = context.params!;
 
   const continentData = await api.get(`/${continent}`).then(res => res.data);

@@ -1,0 +1,19 @@
+.animationContainer {
+  display: grid;
+  place-items: center;
+
+  width: 100vw;
+  height: calc(100 - 7rem);
+
+  margin-top: 10rem
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.animationLoading {
+  animation: loading 1s infinite; 
+}
